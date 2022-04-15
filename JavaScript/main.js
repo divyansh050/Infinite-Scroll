@@ -12,6 +12,7 @@ const Data = () => {
     })
 }
 
+
 const appendData = (arr) => {
   arr.forEach(() => {
     let div = `<div><p> ${string} : ${count++}</p></div>`;
